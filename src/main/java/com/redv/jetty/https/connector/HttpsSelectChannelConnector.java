@@ -2,9 +2,9 @@ package com.redv.jetty.https.connector;
 
 import java.io.IOException;
 
-import org.eclipse.jetty.io.EndPoint;
-import org.eclipse.jetty.server.Request;
-import org.eclipse.jetty.server.nio.SelectChannelConnector;
+import org.mortbay.io.EndPoint;
+import org.mortbay.jetty.Request;
+import org.mortbay.jetty.nio.SelectChannelConnector;
 
 public class HttpsSelectChannelConnector extends SelectChannelConnector {
 

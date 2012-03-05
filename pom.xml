@@ -8,9 +8,9 @@
 	<description>This project provides a connector extended from SelectChannelConnector to use jetty on https scheme</description>
 	<dependencies>
 		<dependency>
-			<groupId>org.eclipse.jetty</groupId>
-			<artifactId>jetty-server</artifactId>
-			<version>7.2.1.v20101111</version>
+			<groupId>org.mortbay.jetty</groupId>
+			<artifactId>jetty</artifactId>
+			<version>6.1.26</version>
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
